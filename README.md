@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Firman Septian | Cosmic Crasher</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Outfit:wght@300;400;700&display=swap" rel="stylesheet" />
+
   <style>
     * {
       margin: 0;
@@ -11,80 +15,103 @@
       box-sizing: border-box;
       scroll-behavior: smooth;
     }
+
     body {
       font-family: 'Outfit', sans-serif;
       background: #0a0a0a url('https://www.transparenttextures.com/patterns/stardust.png');
       color: #f0f0f0;
       line-height: 1.6;
     }
+
     header {
       background: #111;
       padding: 20px 0;
       text-align: center;
       border-bottom: 2px solid #222;
     }
+
     h1 {
       font-family: 'Orbitron', sans-serif;
       font-size: 2em;
     }
+
     nav a {
       color: #0ff;
       margin: 0 10px;
       text-decoration: none;
     }
+
     nav a.active {
       font-weight: bold;
       color: #fff;
     }
+
     .container {
       max-width: 1000px;
       margin: 20px auto;
       padding: 0 20px;
     }
+
     .project-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 20px;
     }
+
     .project-card {
       background: #1a1a1a;
       padding: 15px;
       border-radius: 10px;
       box-shadow: 0 0 8px rgba(0,255,255,0.2);
     }
+
     .project-card h4 {
       margin-bottom: 10px;
     }
+
     section {
       padding: 40px 0;
       border-bottom: 1px solid #333;
     }
+
     h3 {
       margin-bottom: 20px;
       text-align: center;
       color: #0ff;
     }
+
     footer {
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
       color: #888;
     }
-    /* Kontak Bisnis */
+
     .contact {
       text-align: center;
       padding: 40px 20px;
       background: #111;
       border-top: 2px solid #222;
     }
+
     .contact h3 {
       color: #0ff;
       margin-bottom: 15px;
     }
+
     .contact p {
       margin-bottom: 10px;
     }
-    /* Tombol ke atas */
+
+    .contact a {
+      color: #0ff;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
     #toTopBtn {
       position: fixed;
       bottom: 30px;
@@ -100,6 +127,7 @@
       box-shadow: 0 0 12px rgba(0,255,255,0.6);
       z-index: 1000;
     }
+
     #toTopBtn:hover {
       background-color: #00cccc;
     }
@@ -107,7 +135,6 @@
 </head>
 <body>
 
-  <!-- Halaman 1: Index -->
   <header>
     <div class="container">
       <h1>Firman Septian | DEV SC BUG COSMIC CRASHER🦠</h1>
@@ -126,7 +153,6 @@
     <p>Jelajahi berbagai proyek keren yang dibuat untuk menjelajahi celah, menciptakan tool, dan menembus batas-batas sistem!</p>
   </section>
 
-  <!-- Halaman 2: Project Page 1 -->
   <section id="project1" class="container">
     <h3>🚀 Project 1</h3>
     <div class="project-list">
@@ -141,7 +167,6 @@
     </div>
   </section>
 
-  <!-- Halaman 3: Project Page 2 -->
   <section id="project2" class="container">
     <h3>🛰️ Project 2</h3>
     <div class="project-list">
@@ -156,19 +181,17 @@
     </div>
   </section>
 
-  <!-- Kontak Bisnis -->
   <section id="contact" class="contact">
     <h3>📞 Kontak Bisnis</h3>
     <p>Email: <a href="mailto:birum5159@gmail.com">birum5159@gmail.com</a></p>
-    <p>Telegram: <a href="https://t.me/themanzzy">@themanzzy</a></p>
-    <p>Instagram: <a href="https://instagram.com/firmann.stpn">@firmann.sptn</a></p>
+    <p>Telegram: <a href="https://t.me/themanzzy" target="_blank">@themanzzy</a></p>
+    <p>Instagram: <a href="https://instagram.com/firmann.stpn" target="_blank">@firmann.sptn</a></p>
   </section>
 
   <footer>
     &copy; 2025 Firman Septian | Cosmic Crasher Developer
   </footer>
 
-  <!-- Tombol ke atas -->
   <button id="toTopBtn" onclick="scrollToTop()">⬆ Ke Atas</button>
 
   <script>
@@ -186,6 +209,5 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
-
 </body>
 </html>
