@@ -130,7 +130,6 @@
           <p>Scanner payload bug untuk mendeteksi isi sebelum dikirim.</p>
         </div>
       </div>
-
       <div class="pagination">
         <a href="project-page-2.html" class="btn">Halaman Selanjutnya →</a>
       </div>
@@ -151,7 +150,6 @@
       justify-content: space-between;
       margin-top: 30px;
     }
-
     .btn {
       background-color: #333;
       color: #fff;
@@ -160,51 +158,42 @@
       text-decoration: none;
       transition: 0.3s;
     }
-
     .btn:hover {
       background-color: #555;
     }
-
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #0e0e0e;
       color: #f1f1f1;
       margin: 0;
     }
-
     header {
       background: #1b1b1b;
       padding: 20px 0;
       box-shadow: 0 2px 10px rgba(0,0,0,0.5);
     }
-
     .container {
       width: 90%;
       max-width: 900px;
       margin: auto;"
     }
-
     nav a {
       color: #ddd;
       margin-right: 15px;
       text-decoration: none;
       font-weight: bold;
     }
-
     nav a.active {
       color: #00ffe7;
     }
-
     .projects {
       padding: 40px 0;
     }
-
     .project-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
     }
-
     .project-card {
       background: #1e1e1e;
       padding: 20px;
@@ -212,7 +201,6 @@
       box-shadow: 0 0 10px rgba(0,255,200,0.1);
       transition: transform 0.3s;
     }
-
     .project-card:hover {
       transform: scale(1.02);
     }
